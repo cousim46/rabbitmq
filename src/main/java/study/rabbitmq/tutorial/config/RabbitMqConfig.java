@@ -1,11 +1,13 @@
 package study.rabbitmq.tutorial.config;
 
-import org.springframework.amqp.rabbit.connection.CachingConnectionFactory;
-import org.springframework.amqp.rabbit.connection.ConnectionFactory;
+
+import com.rabbitmq.client.ConnectionFactory;
 
 public class RabbitMqConfig {
     public static ConnectionFactory connectionFactory() {
-        return new CachingConnectionFactory("localhost");
+        ConnectionFactory connectionFactory = new ConnectionFactory();
+        connectionFactory.setHost("localhost");
+        return connectionFactory;
     }
 
 }
