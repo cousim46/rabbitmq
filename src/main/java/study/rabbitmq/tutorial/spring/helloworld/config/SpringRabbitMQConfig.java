@@ -1,4 +1,4 @@
-package study.rabbitmq.tutorial.spring.config;
+package study.rabbitmq.tutorial.spring.helloworld.config;
 
 import org.springframework.amqp.core.Queue;
 import org.springframework.context.annotation.Bean;

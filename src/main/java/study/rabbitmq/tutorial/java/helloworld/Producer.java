@@ -3,7 +3,7 @@ package study.rabbitmq.tutorial.java.helloworld;
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
-import study.rabbitmq.tutorial.java.config.RabbitMqConfig;
+import study.rabbitmq.tutorial.java.helloworld.config.RabbitMqConfig;
 /**
  * 브로커가 충분한 디스크 여유 공간(기본적으로 최소 50MB의 여유 공간 필요)없이 시작되어 메시지를 수신하지 못할 수 있음.
  *

@@ -1,4 +1,4 @@
-package study.rabbitmq.tutorial.java.config;
+package study.rabbitmq.tutorial.java.helloworld.config;
 
 
 import com.rabbitmq.client.ConnectionFactory;
