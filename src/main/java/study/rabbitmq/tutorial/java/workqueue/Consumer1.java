@@ -4,7 +4,7 @@ import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
 import com.rabbitmq.client.DeliverCallback;
-import study.rabbitmq.tutorial.java.workqueue.config.RabbitMqConfig;
+import study.rabbitmq.tutorial.java.config.RabbitMqConfig;
 
 public class Consumer1 {
 

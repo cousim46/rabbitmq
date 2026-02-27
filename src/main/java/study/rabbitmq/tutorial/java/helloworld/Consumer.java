@@ -4,7 +4,7 @@ import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
 import com.rabbitmq.client.DeliverCallback;
-import study.rabbitmq.tutorial.java.helloworld.config.RabbitMqConfig;
+import study.rabbitmq.tutorial.java.config.RabbitMqConfig;
 /**
  * 발행자보다 소비자가 먼저시작 될 수 있습니다.
  * 큐에서 메시지를 소비하기 전에 큐가 존재하는지 확인해야합니다.
