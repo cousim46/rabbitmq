@@ -54,6 +54,10 @@ RabbitMQ는 이런 상왈을 인식하지 못하고 메시지를 균등하게 �
 이러한 문제를 해결하기 위해서  `basicQos` 방법을 사용할 수 있습니다.<br/>
 이렇게 하면 RabbitMQ가 이전 메시지를 처리하고 승인할때까지 새로운 메시지를 워커에 보내지 않습니다.
 
+Spring AMQP에서는 공정한 디스패치가 기본 설정입니다. 해당 설정에서 `AbstractMesssageListenerContainer` 값이 `DEFAULT_PREFETCH_COUNT`의 값이 250으로 정의됩니다.
+만약 . 값을 1로 설정하면 위에서 설명한거처럼 라운드 로빈 방식으로 전달됩니다.
+
+
 
 
 
