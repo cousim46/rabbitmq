@@ -90,6 +90,9 @@ STOMP는 기존 토폴리지를 가정하는 경우를 포함하여 어러가지
 ![img.png](img.png)
 발행된 메시지가 라우팅 불가능 메시지로 간주되어 삭제됩니다.
 
+## 프로토콜 별 RabbitMQ 사용하는 방법
+RabbitMQ를 사용하는 방법 프로토콜 별로 분리해서 학습을 하려고 합니다.
+- [AMQP 모델](https://github.com/cousim46/rabbitmq/tree/main/src/main/java/study/rabbitmq/amqp)
 
 
 
